@@ -5,6 +5,6 @@ var recipes = {
 };
 
 function updateObjectWithKeyAndValue(obj, key, val) {
-Object.assign({newObject}, obj, { [key]: val });
-  return obj;
+Object.assign({newObj}, obj, { [key]: val });
+  return newObj;
 }
